@@ -1,6 +1,6 @@
 {
   "name": "haspr-rndb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "An Offline Database for React Native and Expo",
   "license": "ISC",
   "main": "index.js",

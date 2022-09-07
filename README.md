@@ -1,4 +1,4 @@
-# Haspr Async Offline Database
+# Haspr Offline Database for React Native and Expo
 
 <a href="https://www.npmjs.com/package/haspr-rndb"><img src="https://img.shields.io/npm/v/haspr-rndb?color=green" alt="NPM Version"></a>
 <a href="LICENCE"><img src="https://img.shields.io/github/license/hasprLLP/haspr-rndb?color=orange" alt="Licence"></a>
@@ -25,6 +25,13 @@ or
 ```bash
 npm install haspr-rndb
 ```
+
+## Features
+
+- High Performance VM Storage
+- Offline Storage for instant access
+- CRUD Operations are a breeze
+- Works with Both React Native and Expo
 
 ## Load Database
 
@@ -57,7 +64,7 @@ The create function can be used to create simple strings, Objects, Nested Object
 ```javascript
 import HasprDB, { create } from 'haspr-rndb'
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 
 HasprDB() //` Start the Database
 
@@ -151,3 +158,31 @@ Please make sure to update tests as appropriate.
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Feedback
+
+If you have any feedback, please reach out to us at contact@haspr.in
+
+## 🔗 Links
+
+[![portfolio](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=site&logoColor=white)](https://haspr.in/)
+
+[![facebook](https://img.shields.io/badge/facebook-0A66C2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/hasprdesign)
+
+[![instagram](https://img.shields.io/badge/instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hasprdesign/)
+
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hasprdesign)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/hasprllp)
+
+[![youtube](https://img.shields.io/badge/youtube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC0xbdzfePWB65W8Ap-Aj-VA)
+
+[![pinterest](https://img.shields.io/badge/pinterest-E60023?style=for-the-badge&logo=pinterest&logoColor=white)](https://in.pinterest.com/hasprdesign/)
+
+[![behance](https://img.shields.io/badge/behance-053eff?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/haspr/)
+
+[![dribbble](https://img.shields.io/badge/dribbble-ea4c89?style=for-the-badge&logo=dribbble&logoColor=white)](https://dribbble.com/haspr)
+
+[![github](https://img.shields.io/badge/github-171515?style=for-the-badge&logo=github&logoColor=white)](https://dribbble.com/haspr)
+
+![Logo](https://haspr.in/static/svg/brand-logo.svg)

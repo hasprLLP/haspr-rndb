@@ -94,7 +94,7 @@ The read function can be used to read simple strings, Objects, Nested Objects, A
 ```javascript
 import HasprDB, { read } from 'haspr-rndb'
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 
 HasprDB() //` Start the Database
 
@@ -122,7 +122,7 @@ The remove function can be used to delete simple strings, Objects, Nested Object
 ```javascript
 import HasprDB, { remove } from 'haspr-rndb'
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, TouchableOpacity } from 'react-native'
 
 HasprDB() //` Start the Database
 

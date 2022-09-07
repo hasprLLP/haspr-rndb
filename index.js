@@ -8,7 +8,7 @@ const KEY_FOR_STORAGE = 'HasprDB' //` Database Name
 let DATASTORE //` Global Variable to store data
 
 //$ Load Data in Function at Start
-const loadHasprDB = async () => {
+const LoadHasprDB = async () => {
   try {
     const loadedJson = await AsyncStorage.getItem(KEY_FOR_STORAGE)
 
@@ -110,4 +110,5 @@ const remove = key => {
   }
 }
 
-export { loadHasprDB, create, read, remove }
+export { create, read, remove }
+export default LoadHasprDB

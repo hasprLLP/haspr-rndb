@@ -1,6 +1,6 @@
 # Haspr Async Offline Database
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/liquid-swipe/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/hasprLLP/haspr-rndb/main/LICENSE)
 
 This package has been created by Haspr for use in their in-house projects. Others are free to use this package and leave their feedback for improvements
 
@@ -27,11 +27,11 @@ npm install haspr-rndb
 In order to use the database, you have to first declare it in your App.js file before the functions for best performance
 
 ```javascript
-import { loadHasprDB } from 'haspr-rndb'
+import HasprDB from 'haspr-rndb'
 import React from 'react'
 import { View, Text } from 'react-native'
 
-loadHasprDB() //` Start the Database
+HasprDB() //` Start the Database
 
 export default function App() {
   return (
@@ -51,14 +51,15 @@ You can use the build in operations create, read and remove to perform crud oper
 The create function can be used to create simple strings, Objects, Nested Objects, Arrays, and Booleans. The Create functions can also be used to update values as it creates new values and keeps the existing data intact.
 
 ```javascript
-import { create } from 'haspr-rndb'
+import HasprDB, { create } from 'haspr-rndb'
 import React from 'react'
 import { View, Text } from 'react-native'
 
-loadHasprDB() //` Start the Database
+HasprDB() //` Start the Database
 
 export default function App() {
   const saveUser = () => {
+    const OTP = 861245
     create('pin', OTP)
     const result = create('user.auth.name', 'The Rock')
     console.log(result)
@@ -79,16 +80,16 @@ export default function App() {
 The read function can be used to read simple strings, Objects, Nested Objects, Arrays, and Booleans using string path of objects connected with dots, e.g. , one may want to check if user is logged in from an object, read('user.auth.isLogin') if exists will return the value TRUE
 
 ```javascript
-import { read } from 'haspr-rndb'
+import HasprDB, { read } from 'haspr-rndb'
 import React from 'react'
 import { View, Text } from 'react-native'
 
-loadHasprDB() //` Start the Database
+HasprDB() //` Start the Database
 
 export default function App() {
   const pin = read('pin')
   console.log(pin)
-  // result >> 1111
+  // result >> 861245
 
   const user = read('user.auth')
   console.log(user)
@@ -107,11 +108,11 @@ export default function App() {
 The remove function can be used to delete simple strings, Objects, Nested Objects, Arrays, and Booleans using string path of objects connected with dots.
 
 ```javascript
-import { remove } from 'haspr-rndb'
+import HasprDB, { remove } from 'haspr-rndb'
 import React from 'react'
 import { View, Text } from 'react-native'
 
-loadHasprDB() //` Start the Database
+HasprDB() //` Start the Database
 
 export default function App() {
   // Remove Single Data

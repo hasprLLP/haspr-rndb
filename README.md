@@ -36,7 +36,7 @@ npm install haspr-rndb
 # Load Database
 
 In order to use the database, you have to first declare it in your App.js file before the functions for best performance
-_You only have to do this once at the top level of your React Native or Expo App, which will usually be App.js_
+_You only have to do this once at the top level of your React Native or Expo App, which will usually be **App.js**_
 
 ```javascript
 import HasprDB from 'haspr-rndb'

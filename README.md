@@ -33,7 +33,7 @@ npm install haspr-rndb
 - CRUD Operations are a breeze
 - Works with Both React Native and Expo
 
-## Load Database
+# Load Database
 
 In order to use the database, you have to first declare it in your App.js file before the functions for best performance
 

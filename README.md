@@ -5,6 +5,7 @@
 <img src="https://img.shields.io/bundlephobia/min/haspr-rndb?color=blue" alt="Bundle file size">
 <img src="https://img.shields.io/bundlephobia/minzip/haspr-rndb?color=yellow&label=gzip%20size" alt="Bundle file size (gzip)">
 <a href="https://npmcharts.com/compare/haspr-rndb?minimal=true"><img src="https://img.shields.io/npm/dm/haspr-rndb?color=black" alt="NPM Downloads"></a>
+<img src="https://img.shields.io/github/workflow/status/hasprLLP/haspr-rndb/Release%20package" alt="GitHub Workflow Status">
 
 This package has been created by Haspr for use in their in-house projects. Others are free to use this package and leave their feedback for improvements
 

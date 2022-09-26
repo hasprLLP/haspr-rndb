@@ -4,7 +4,7 @@ on:
     inputs:
       release-type:
         description: 'Release type (one of): patch, minor, major, prepatch, preminor, premajor, prerelease'
-        required: true
+        required: false
 jobs:
   release:
     runs-on: ubuntu-latest
